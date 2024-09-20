@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNI</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="diseño.css">
+    <script src="DNI.js"></script>
+</head>
+<body>
+
+    <div class="principal">
+        <form action="index.html" method="GET" name="registro" onsubmit="return validar(this)">
+            <h1>VALIDACION DEL DNI</h1>
+            <p>Ingresa el número del DNI</p>
+            <input class="cuadro" type="text" name="dni" id="dni"  placeholder="Solo caracteres numéricos" required>
+            <br>
+            <br>
+            <p>Ingresa la letra del DNI</p>
+            <input class="cuadro" type="text" name="dniletra" id="dniletra" placeholder="Solo caracteres alfabéticos mayúsculas" required>
+            <br>
+            <br>
+
+            <input class="boton" type="submit" id="Enviar" value="Enviar">
+            <input class="boton" type="reset" id="Reset" value="Reset">
+            <br>
+            <br>
+        </form>
+    </div>
+    
+</body>
+</html>
